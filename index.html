@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de Datos Personales</title>
+</head>
+<body>
+    <h1>Formulario de Datos Personales</h1>
+    <form id="formulario">
+        <!-- Campo para el nombre -->
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" required>
+        <br>
+
+        <!-- Campo para el apellido -->
+        <label for="apellido">Apellido:</label>
+        <input type="text" id="apellido" required>
+        <br>
+
+        <!-- Campo para la fecha de nacimiento -->
+        <label for="fecha_nacimiento">Fecha de Nacimiento:</label>
+        <input type="date" id="fecha_nacimiento" required>
+        <br>
+
+        <!-- Campo para el correo electrónico -->
+        <label for="email">Correo Electrónico:</label>
+        <input type="email" id="email" required>
+        <br>
+
+        <!-- Campo para el número de teléfono -->
+        <label for="telefono">Teléfono:</label>
+        <input type="tel" id="telefono">
+        <br>
+
+        <!-- Botón de envío -->
+        <input type="submit" value="Guardar Datos">
+    </form>
+
+    <!-- Lista de personas -->
+    <h2>Lista de Personas</h2>
+    <ul id="lista-personas">
+    </ul>
+
+    <!-- Incluir el archivo JavaScript -->
+    <script src="script.js" type="module"></script>
+</body>
+</html>

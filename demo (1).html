@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+	<form name="myForm" action="" method="POST">
+  Enter something in the box: <br>
+  <input type="text" name="inputbox" value="">
+  <input type="button" name="button" value="Click" onClick="testResults(this.form)">
+</form>
+<script type="text/javascript">
+		
+	function testResults (form) {
+	    var inputValue = form.inputbox.value;
+	    console.log ("texto ingresado: " + inputValue);
+	}
+</script>
+</body>
+</html>
