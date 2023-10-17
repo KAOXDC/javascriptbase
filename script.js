@@ -26,7 +26,7 @@ function agregarPersona(event) {
     console.log(personas);
 
     // Limpiar el formulario
-    document.getElementById("formulario").reset();
+    // document.getElementById("formulario").reset();
 }
 
 // Agregar un evento al formulario para llamar a la función agregarPersona
